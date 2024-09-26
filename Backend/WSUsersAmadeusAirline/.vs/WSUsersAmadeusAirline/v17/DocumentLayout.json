@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\WSUsersAmadeusAirline\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A3A80B-3C62-4626-9CFC-5D4C4C2F37A0}|Infraestructure\\Infraestructure.csproj|c:\\users\\user\\source\\repos\\wsusersamadeusairline\\infraestructure\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A3A80B-3C62-4626-9CFC-5D4C4C2F37A0}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708BAE0-C87C-418A-9891-7D42E453728A}|Domain\\Domain.csproj|c:\\users\\user\\source\\repos\\wsusersamadeusairline\\domain\\business\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4708BAE0-C87C-418A-9891-7D42E453728A}|Domain\\Domain.csproj|solutionrelative:domain\\business\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A54F5F7-54CC-4EBB-B480-B9F2AFC103A7}|WSUsersAmadeusAirline\\WSUsersAmadeusAirline.csproj|c:\\users\\user\\source\\repos\\wsusersamadeusairline\\wsusersamadeusairline\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A54F5F7-54CC-4EBB-B480-B9F2AFC103A7}|WSUsersAmadeusAirline\\WSUsersAmadeusAirline.csproj|solutionrelative:wsusersamadeusairline\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708BAE0-C87C-418A-9891-7D42E453728A}|Domain\\Domain.csproj|c:\\users\\user\\source\\repos\\wsusersamadeusairline\\domain\\models\\usersmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4708BAE0-C87C-418A-9891-7D42E453728A}|Domain\\Domain.csproj|solutionrelative:domain\\models\\usersmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A3A80B-3C62-4626-9CFC-5D4C4C2F37A0}|Infraestructure\\Infraestructure.csproj|c:\\users\\user\\source\\repos\\wsusersamadeusairline\\infraestructure\\interfaces\\igenericrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A3A80B-3C62-4626-9CFC-5D4C4C2F37A0}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\interfaces\\igenericrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A3A80B-3C62-4626-9CFC-5D4C4C2F37A0}|Infraestructure\\Infraestructure.csproj|c:\\users\\user\\source\\repos\\wsusersamadeusairline\\infraestructure\\interfaces\\iusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A3A80B-3C62-4626-9CFC-5D4C4C2F37A0}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\interfaces\\iusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\WSUsersAmadeusAirline\\WSUsersAmadeusAirline\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WSUsersAmadeusAirline\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\WSUsersAmadeusAirline\\WSUsersAmadeusAirline\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WSUsersAmadeusAirline\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T17:30:30.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\WSUsersAmadeusAirline\\Domain\\Models\\UsersModel.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\UsersModel.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\WSUsersAmadeusAirline\\Domain\\Models\\UsersModel.cs",
+              "RelativeToolTip": "Domain\\Models\\UsersModel.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAmwBEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T17:27:50.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserBL.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\WSUsersAmadeusAirline\\Domain\\Business\\UserBL.cs",
+              "RelativeDocumentMoniker": "Domain\\Business\\UserBL.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\WSUsersAmadeusAirline\\Domain\\Business\\UserBL.cs",
+              "RelativeToolTip": "Domain\\Business\\UserBL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T17:25:13.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGenericRepos.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\WSUsersAmadeusAirline\\Infraestructure\\Interfaces\\IGenericRepos.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Interfaces\\IGenericRepos.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\WSUsersAmadeusAirline\\Infraestructure\\Interfaces\\IGenericRepos.cs",
+              "RelativeToolTip": "Infraestructure\\Interfaces\\IGenericRepos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T17:24:51.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUsers.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\WSUsersAmadeusAirline\\Infraestructure\\Interfaces\\IUsers.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Interfaces\\IUsers.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\WSUsersAmadeusAirline\\Infraestructure\\Interfaces\\IUsers.cs",
+              "RelativeToolTip": "Infraestructure\\Interfaces\\IUsers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T17:24:49.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\WSUsersAmadeusAirline\\Infraestructure\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\WSUsersAmadeusAirline\\Infraestructure\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repositories\\UsersRepository.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAMwIoAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T17:06:50.712Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
