@@ -41,6 +41,26 @@ namespace Domain.Business
             return listUserModel;
         }
 
+        public async Task<IEnumerable<UsersModel>> GetByID(long Id)
+        {
+            var usersDataModel = await users.GetByID(Id);
+            var listUserModel = new List<UsersModel>();
+            foreach (UsersAmadeus user in usersDataModel)
+            {
+                listUserModel.Add(new UsersModel
+                {
+                    IDIdentifier = user.IDIdentifier,
+                    Name = user.Name,
+                    LastName = user.LastName,
+                    PhoneNumber = user.PhoneNumber,
+                    Email = user.Email,
+                    DateOfBirthday = user.DateOfBirthday,
+                    Salary = user.Salary
+                });
+            }
+            return listUserModel;
+        }
+
         public async Task<string> Insert(UsersModel userM)
         {
             string message;

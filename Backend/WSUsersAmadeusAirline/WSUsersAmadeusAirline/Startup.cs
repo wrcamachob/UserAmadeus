@@ -21,6 +21,11 @@ namespace WSUsersAmadeusAirline
             //services.AddSingleton<IConfiguration>(Configuration)            
             services.AddSingleton<IUsersBL<UsersModel>, UserBL>();
             services.AddControllers();
+            //services.AddAuthorization(options =>
+            //{
+            //    options.AddPolicy("AdminOnly", policy =>
+            //        policy.RequireRole("Admin"));
+            //});
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "UserAmadeusAPI", Version = "v1" });

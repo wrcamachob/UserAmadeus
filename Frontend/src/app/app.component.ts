@@ -15,6 +15,7 @@ import { AbstractControl, FormBuilder, FormGroup, Validators } from '@angular/fo
 })
 export class AppComponent extends ComponentParent implements OnInit {
   idIdentifier: number | undefined;
+  idRequest: number;
   name?: string;
   lastName?: string;
   email: string | undefined;
@@ -123,6 +124,16 @@ export class AppComponent extends ComponentParent implements OnInit {
         }
       }
     }    
+  }
+
+  FindByID() {
+    this.userService.GetByID(this.idRequest).subscribe(
+      data => {
+        if (data) {
+          this.usersList = data;
+          console.log(this.usersList)
+        }
+      });
   }
 
   openForEdit(user: Users) {

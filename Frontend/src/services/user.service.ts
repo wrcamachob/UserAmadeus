@@ -20,8 +20,15 @@ export class UserService extends ServiceParent {
       }));
   }
 
-  Get(query: string, onlyLocalInfo: boolean) {
-    return this.http.get(`${environment.urlApi}/users/${query}/${onlyLocalInfo}`)
+  // Get(query: string, onlyLocalInfo: boolean) {
+  //   return this.http.get(`${environment.urlApi}/users/${query}/${onlyLocalInfo}`)
+  //     .pipe(map(data => {
+  //       return data;
+  //     }));
+  // }
+
+  GetByID(id: number) {
+    return this.http.get(`${environment.urlApi}/user/${id}`)
       .pipe(map(data => {
         return data;
       }));

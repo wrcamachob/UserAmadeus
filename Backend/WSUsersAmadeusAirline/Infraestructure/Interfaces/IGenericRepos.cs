@@ -12,5 +12,6 @@ namespace Infraestructure.Interfaces
         Task<int> Update(Entity entity);
         Task<int> Delete(long id);
         Task<IEnumerable<Entity>> GetAllUsers();
+        Task<IEnumerable<Entity>> GetByID(long id);
     }
 }

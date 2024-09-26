@@ -23,12 +23,11 @@ namespace WSUsersAmadeusAirline.Controllers
         {
             return await _users.GetAll();
         }
-
-        // GET api/<UserController>/5
+        
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<IEnumerable<UsersModel>> Get(int id)
         {
-            return "value";
+            return await _users.GetByID(id);
         }
 
         [HttpPost]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WSUsersAmadeusAirline")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9259a33531a5299d399c0d6433e9a1f6f20f5db7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66d32b20eaaa0e312fa440f5face6dba1b35b5d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("WSUsersAmadeusAirline")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WSUsersAmadeusAirline")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -11,6 +11,8 @@ namespace Domain.Interfaces
     {
         Task<IEnumerable<UsersModel>> GetAll();
 
+        Task<IEnumerable<UsersModel>> GetByID(long id);
+
         Task<string> Insert(UsersModel cliente);
 
         Task<string> Update(UsersModel cliente);

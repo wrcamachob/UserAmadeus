@@ -122,6 +122,55 @@ namespace Infraestructure.Repositories
             return lstUsers;
         }
 
+        public async Task<IEnumerable<UsersAmadeus>> GetByID(long id)
+        {
+            List<UsersAmadeus> lstUsers = new();
+            using (SqlConnection conn = new(connection))
+            {
+                try
+                {
+                    SqlCommand cmd = new SqlCommand
+                    {
+                        Connection = conn,
+                        CommandType = System.Data.CommandType.StoredProcedure,
+                        CommandText = "SPGetUserByIDAm",
+                        CommandTimeout = 10
+                    };
+                    cmd.Parameters.AddWithValue("@IDIdentifier", id);
+                    cmd.Parameters["@IDIdentifier"].Direction = ParameterDirection.Input;
+                    await conn.OpenAsync();
+
+                    cmd.ExecuteScalar();
+                    SqlDataReader dt = cmd.ExecuteReader();
+
+                    while (dt.Read())
+                    {
+                        UsersAmadeus datUsers = new()
+                        {
+                            IDIdentifier = Convert.ToInt64(dt["USAMIDIdentifier"].ToString()),
+                            Name = dt["USAMName"].ToString(),
+                            LastName = dt["USAMLastName"].ToString(),
+                            Email = dt["USAMEmail"].ToString(),
+                            PhoneNumber = Convert.ToInt64(dt["USAMPhoneNumber"]),
+                            DateOfBirthday = dt["USAMDateOfBirthday"].ToString() == "" ? DateTime.MinValue : Convert.ToDateTime(dt["USAMDateOfBirthday"].ToString()), //DateTime.ParseExact(dt["USAMDateOfBirthday"].ToString(), "dd/MM/yyyy", null),
+                            Salary = dt["USAMSalary"].ToString() == "" ? 0 : Convert.ToInt64(dt["USAMSalary"])
+                        };
+
+                        lstUsers.Add(datUsers);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("Error al consultar", ex);
+                }
+                finally
+                {
+                    conn.Close();
+                }
+            }
+            return lstUsers;
+        }
+
         public async Task<int> Update(UsersAmadeus entity)
         {
             //string mensaje = string.Empty;

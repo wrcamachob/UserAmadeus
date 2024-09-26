@@ -60,7 +60,8 @@
               <div>
                 Salary:
               </div>
-              <input type="number" [(ngModel)]="salary" placeholder="Insert Current Salary" class="form-control">
+              <input type="text" [(ngModel)]="salary" placeholder="Insert Current Salary" class="form-control" 
+              style='width: 200px' appOnlynumber>
             </div>
             <div>
               <br>
@@ -74,8 +75,19 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-
+    <br>    
+    <div class="col-md-8">
+      <div class="form-group">
+        <br>
+        <div>
+          Find by Id:
+        </div>
+        <input type="text" [(ngModel)]="idRequest" placeholder="Insert ID" class="form-control" id="idRequest"
+        (keypress)="keyPressNumbers($event)" minlength="4" maxlength="12" style='width: 150px'
+        pattern="[0-9]" appOnlynumber>
+        <br>
+        <button (click)="FindByID()" class="btn btn-primary" style="margin-right: 16px"> Consultar </button>
+      </div>
       <!-- <img
             width="40"
             alt="Angular Logo"
