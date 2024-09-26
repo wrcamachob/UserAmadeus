@@ -24,8 +24,11 @@ namespace Infraestructure.Repositories
         /// </summary>
         public UsersRepository(IConfiguration config)
         {
-            _configuration = config;
-            connection = _configuration.GetConnectionString("DefaultConnection");
+            if (config != null)
+            {
+                _configuration = config;
+                connection = _configuration.GetConnectionString("DefaultConnection");
+            }                
         }
 
         public async Task<int> Add(UsersAmadeus entity)
@@ -65,7 +68,7 @@ namespace Infraestructure.Repositories
                 {
                     Connection = conn,
                     CommandType = System.Data.CommandType.StoredProcedure,
-                    CommandText = "DeleteUsers",
+                    CommandText = "SPDeleteUsersAm",
                     CommandTimeout = 10
                 };
                 cmd.Parameters.AddWithValue("@IDIdentifier", id);

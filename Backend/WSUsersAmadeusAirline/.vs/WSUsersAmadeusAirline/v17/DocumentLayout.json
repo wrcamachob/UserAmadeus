@@ -7,26 +7,6 @@
       "RelativeMoniker": "D:0:0:{B9A3A80B-3C62-4626-9CFC-5D4C4C2F37A0}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A54F5F7-54CC-4EBB-B480-B9F2AFC103A7}|WSUsersAmadeusAirline\\WSUsersAmadeusAirline.csproj|c:\\users\\user\\onedrive\\documentos\\amadeus\\backend\\wsusersamadeusairline\\wsusersamadeusairline\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A54F5F7-54CC-4EBB-B480-B9F2AFC103A7}|WSUsersAmadeusAirline\\WSUsersAmadeusAirline.csproj|solutionrelative:wsusersamadeusairline\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4708BAE0-C87C-418A-9891-7D42E453728A}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\documentos\\amadeus\\backend\\wsusersamadeusairline\\domain\\interfaces\\iusersbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4708BAE0-C87C-418A-9891-7D42E453728A}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iusersbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4708BAE0-C87C-418A-9891-7D42E453728A}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\documentos\\amadeus\\backend\\wsusersamadeusairline\\domain\\business\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4708BAE0-C87C-418A-9891-7D42E453728A}|Domain\\Domain.csproj|solutionrelative:domain\\business\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9A3A80B-3C62-4626-9CFC-5D4C4C2F37A0}|Infraestructure\\Infraestructure.csproj|c:\\users\\user\\onedrive\\documentos\\amadeus\\backend\\wsusersamadeusairline\\infraestructure\\interfaces\\igenericrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9A3A80B-3C62-4626-9CFC-5D4C4C2F37A0}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\interfaces\\igenericrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9A3A80B-3C62-4626-9CFC-5D4C4C2F37A0}|Infraestructure\\Infraestructure.csproj|c:\\users\\user\\onedrive\\documentos\\amadeus\\backend\\wsusersamadeusairline\\infraestructure\\interfaces\\iusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9A3A80B-3C62-4626-9CFC-5D4C4C2F37A0}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\interfaces\\iusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A54F5F7-54CC-4EBB-B480-B9F2AFC103A7}|WSUsersAmadeusAirline\\WSUsersAmadeusAirline.csproj|c:\\users\\user\\onedrive\\documentos\\amadeus\\backend\\wsusersamadeusairline\\wsusersamadeusairline\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A54F5F7-54CC-4EBB-B480-B9F2AFC103A7}|WSUsersAmadeusAirline\\WSUsersAmadeusAirline.csproj|solutionrelative:wsusersamadeusairline\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -38,37 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IGenericRepos.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\Amadeus\\Backend\\WSUsersAmadeusAirline\\Infraestructure\\Interfaces\\IGenericRepos.cs",
-              "RelativeDocumentMoniker": "Infraestructure\\Interfaces\\IGenericRepos.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\Amadeus\\Backend\\WSUsersAmadeusAirline\\Infraestructure\\Interfaces\\IGenericRepos.cs",
-              "RelativeToolTip": "Infraestructure\\Interfaces\\IGenericRepos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T21:18:25.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUsers.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\Amadeus\\Backend\\WSUsersAmadeusAirline\\Infraestructure\\Interfaces\\IUsers.cs",
-              "RelativeDocumentMoniker": "Infraestructure\\Interfaces\\IUsers.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\Amadeus\\Backend\\WSUsersAmadeusAirline\\Infraestructure\\Interfaces\\IUsers.cs",
-              "RelativeToolTip": "Infraestructure\\Interfaces\\IUsers.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T21:15:04.53Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -78,40 +32,14 @@
               "RelativeDocumentMoniker": "Infraestructure\\Repositories\\UsersRepository.cs",
               "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\Amadeus\\Backend\\WSUsersAmadeusAirline\\Infraestructure\\Repositories\\UsersRepository.cs",
               "RelativeToolTip": "Infraestructure\\Repositories\\UsersRepository.cs",
-              "ViewState": "AQIAAKIAAAAAAAAAAAAewLAAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAWwEAAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T21:14:54.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserBL.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\Amadeus\\Backend\\WSUsersAmadeusAirline\\Domain\\Business\\UserBL.cs",
-              "RelativeDocumentMoniker": "Domain\\Business\\UserBL.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\Amadeus\\Backend\\WSUsersAmadeusAirline\\Domain\\Business\\UserBL.cs",
-              "RelativeToolTip": "Domain\\Business\\UserBL.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAIwC0AAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T21:13:44.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IUsersBL.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\Amadeus\\Backend\\WSUsersAmadeusAirline\\Domain\\Interfaces\\IUsersBL.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUsersBL.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\Amadeus\\Backend\\WSUsersAmadeusAirline\\Domain\\Interfaces\\IUsersBL.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IUsersBL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T21:12:59.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\Amadeus\\Backend\\WSUsersAmadeusAirline\\WSUsersAmadeusAirline\\Startup.cs",
               "RelativeDocumentMoniker": "WSUsersAmadeusAirline\\Startup.cs",
@@ -119,21 +47,7 @@
               "RelativeToolTip": "WSUsersAmadeusAirline\\Startup.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAYwBsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T20:59:29.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\Amadeus\\Backend\\WSUsersAmadeusAirline\\WSUsersAmadeusAirline\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "WSUsersAmadeusAirline\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\Amadeus\\Backend\\WSUsersAmadeusAirline\\WSUsersAmadeusAirline\\Controllers\\UserController.cs",
-              "RelativeToolTip": "WSUsersAmadeusAirline\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwB0AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T17:30:30.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T20:59:29.398Z"
             }
           ]
         }
