@@ -10,8 +10,8 @@
 # BackEnd
 <br />This Backend is made in .Net Core, we can change connection string in file ***appsettings.json***
 # FrontEnd
-This frontend is Angular. After download just run this command
-  --npm install
-  --npm i sweetalert
-  --ng serve -o
-  For change the Url Of Api, we can do it in the folder enviroment, variable=urlApi.
+<br />This frontend is Angular. After download just run this command
+<br />--npm install
+<br />--npm i sweetalert
+<br />--ng serve -o
+<br />For change the Url of Api, we can do it in the folder: enviroment, variable: urlApi
